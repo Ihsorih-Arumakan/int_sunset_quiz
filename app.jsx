@@ -74,7 +74,7 @@ export default function App() {
       <div>
         <h2>夕焼け写真クイズ</h2>
         {selectedPhoto && (
-          <img src={`/sunsets/${selectedPhoto}`} alt="sunset" style={{maxWidth: "100%"}} />
+          <img src={`sunsets/${selectedPhoto}`} alt="sunset" style={{maxWidth: "100%"}} />
         )}
         <div>
           夏至から何日後？　
